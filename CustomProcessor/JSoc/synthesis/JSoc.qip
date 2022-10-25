@@ -1,0 +1,169 @@
+set_global_assignment -entity "JSoc" -library "JSoc" -name IP_TOOL_NAME "qsys"
+set_global_assignment -entity "JSoc" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -library "JSoc" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../JSoc.sopcinfo"]
+set_instance_assignment -entity "JSoc" -library "JSoc" -name SLD_INFO "QSYS_NAME JSoc HAS_SOPCINFO 1 GENERATION_ID 1643105791"
+set_global_assignment -library "JSoc" -name MISC_FILE [file join $::quartus(qip_path) "../../JSoc.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "JSoc" -name MISC_FILE [file join $::quartus(qip_path) "../../JSoc.qsys"]
+
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "JSoc.v"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_irq_clock_crosser.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_irq_mapper.sv"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_st_handshake_clock_crosser.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_st_clock_crosser.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_st_pipeline_base.v"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_arbitrator.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_rsp_xbar_mux_002.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_rsp_xbar_demux_006.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_cmd_xbar_demux_002.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_rsp_xbar_mux_001.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_rsp_xbar_mux.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_rsp_xbar_demux_002.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_rsp_xbar_demux.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_cmd_xbar_mux.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_cmd_xbar_demux_001.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_cmd_xbar_demux.sv"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "JSoc" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_traffic_limiter.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_id_router_006.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_addr_router_002.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_id_router_002.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_id_router.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_addr_router_001.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_addr_router.sv"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_agent.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_burst_uncompressor.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_agent.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
+set_global_assignment -library "JSoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_mm_clock_crossing_bridge.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_dc_fifo.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_dcfifo_synchronizer_bundle.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_led_out.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_sysid.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_timer.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_altpll.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_jtag_uart.v"]
+set_global_assignment -library "JSoc" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/JSoc_jtag_uart_input_mutex.dat"]
+set_global_assignment -library "JSoc" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/JSoc_jtag_uart_input_stream.dat"]
+set_global_assignment -library "JSoc" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/JSoc_jtag_uart_output_stream.dat"]
+set_global_assignment -library "JSoc" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu.ocp"]
+set_global_assignment -library "JSoc" -name SDC_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu.sdc"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu.v"]
+set_global_assignment -library "JSoc" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu_ic_tag_ram.mif"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu_jtag_debug_module_sysclk.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu_jtag_debug_module_tck.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu_jtag_debug_module_wrapper.v"]
+set_global_assignment -library "JSoc" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu_ociram_default_contents.mif"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu_oci_test_bench.v"]
+set_global_assignment -library "JSoc" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu_rf_ram_a.mif"]
+set_global_assignment -library "JSoc" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu_rf_ram_b.mif"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_cpu_test_bench.v"]
+set_global_assignment -library "JSoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/JSoc_sdramController.v"]
+
+set_global_assignment -entity "altera_irq_clock_crosser" -library "JSoc" -name IP_TOOL_NAME "altera_irq_clock_crosser"
+set_global_assignment -entity "altera_irq_clock_crosser" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_irq_clock_crosser" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_irq_mapper" -library "JSoc" -name IP_TOOL_NAME "altera_irq_mapper"
+set_global_assignment -entity "JSoc_irq_mapper" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_irq_mapper" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_avalon_st_handshake_clock_crosser" -library "JSoc" -name IP_TOOL_NAME "altera_avalon_st_handshake_clock_crosser"
+set_global_assignment -entity "altera_avalon_st_handshake_clock_crosser" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_avalon_st_handshake_clock_crosser" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_rsp_xbar_mux_002" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "JSoc_rsp_xbar_mux_002" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_rsp_xbar_mux_002" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_rsp_xbar_demux_006" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "JSoc_rsp_xbar_demux_006" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_rsp_xbar_demux_006" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_cmd_xbar_demux_002" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "JSoc_cmd_xbar_demux_002" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_cmd_xbar_demux_002" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_rsp_xbar_mux_001" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "JSoc_rsp_xbar_mux_001" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_rsp_xbar_mux_001" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_rsp_xbar_mux" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "JSoc_rsp_xbar_mux" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_rsp_xbar_mux" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_rsp_xbar_demux_002" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "JSoc_rsp_xbar_demux_002" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_rsp_xbar_demux_002" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_rsp_xbar_demux" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "JSoc_rsp_xbar_demux" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_rsp_xbar_demux" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_cmd_xbar_mux" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "JSoc_cmd_xbar_mux" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_cmd_xbar_mux" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_cmd_xbar_demux_001" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "JSoc_cmd_xbar_demux_001" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_cmd_xbar_demux_001" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_cmd_xbar_demux" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "JSoc_cmd_xbar_demux" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_cmd_xbar_demux" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_reset_controller" -library "JSoc" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_reset_controller" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_traffic_limiter"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_id_router_006" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "JSoc_id_router_006" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_id_router_006" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_addr_router_002" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "JSoc_addr_router_002" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_addr_router_002" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_id_router_002" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "JSoc_id_router_002" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_id_router_002" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_id_router" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "JSoc_id_router" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_id_router" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_addr_router_001" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "JSoc_addr_router_001" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_addr_router_001" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_addr_router" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "JSoc_addr_router" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_addr_router" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "JSoc" -name IP_TOOL_NAME "altera_avalon_sc_fifo"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_slave_agent"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_master_agent" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_master_agent"
+set_global_assignment -entity "altera_merlin_master_agent" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_merlin_master_agent" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_slave_translator"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_master_translator" -library "JSoc" -name IP_TOOL_NAME "altera_merlin_master_translator"
+set_global_assignment -entity "altera_merlin_master_translator" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_merlin_master_translator" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_avalon_mm_clock_crossing_bridge" -library "JSoc" -name IP_TOOL_NAME "altera_avalon_mm_clock_crossing_bridge"
+set_global_assignment -entity "altera_avalon_mm_clock_crossing_bridge" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "altera_avalon_mm_clock_crossing_bridge" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_led_out" -library "JSoc" -name IP_TOOL_NAME "altera_avalon_pio"
+set_global_assignment -entity "JSoc_led_out" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_led_out" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_sysid" -library "JSoc" -name IP_TOOL_NAME "altera_avalon_sysid_qsys"
+set_global_assignment -entity "JSoc_sysid" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_sysid" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_timer" -library "JSoc" -name IP_TOOL_NAME "altera_avalon_timer"
+set_global_assignment -entity "JSoc_timer" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_timer" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_altpll" -library "JSoc" -name IP_TOOL_NAME "altpll"
+set_global_assignment -entity "JSoc_altpll" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_altpll" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_jtag_uart" -library "JSoc" -name IP_TOOL_NAME "altera_avalon_jtag_uart"
+set_global_assignment -entity "JSoc_jtag_uart" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_jtag_uart" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_cpu" -library "JSoc" -name IP_TOOL_NAME "altera_nios2_qsys"
+set_global_assignment -entity "JSoc_cpu" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_cpu" -library "JSoc" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "JSoc_sdramController" -library "JSoc" -name IP_TOOL_NAME "altera_avalon_new_sdram_controller"
+set_global_assignment -entity "JSoc_sdramController" -library "JSoc" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "JSoc_sdramController" -library "JSoc" -name IP_TOOL_ENV "qsys"

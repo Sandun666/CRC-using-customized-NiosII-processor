@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="JSoc">
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSoc|Decoder:inst2|Decoder_jtag_uart:jtag_uart|Decoder_jtag_uart_scfifo_r:the_Decoder_jtag_uart_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_jr21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSoc|Decoder:inst2|Decoder_cpu:cpu|Decoder_cpu_ic_data_module:Decoder_cpu_ic_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_cjd1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSoc|Decoder:inst2|Decoder_cpu:cpu|Decoder_cpu_ic_tag_module:Decoder_cpu_ic_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_bvg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSoc|Decoder:inst2|Decoder_cpu:cpu|Decoder_cpu_nios2_oci:the_Decoder_cpu_nios2_oci|Decoder_cpu_nios2_oci_im:the_Decoder_cpu_nios2_oci_im|Decoder_cpu_traceram_lpm_dram_bdp_component_module:Decoder_cpu_traceram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_0a02.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSoc|Decoder:inst2|Decoder_cpu:cpu|Decoder_cpu_nios2_oci:the_Decoder_cpu_nios2_oci|Decoder_cpu_nios2_ocimem:the_Decoder_cpu_nios2_ocimem|Decoder_cpu_ociram_lpm_dram_bdp_component_module:Decoder_cpu_ociram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_4v72.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSoc|Decoder:inst2|Decoder_cpu:cpu|Decoder_cpu_register_bank_a_module:Decoder_cpu_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_alg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSoc|Decoder:inst2|Decoder_cpu:cpu|Decoder_cpu_register_bank_b_module:Decoder_cpu_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_blg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSoc|Decoder:inst2|Decoder_cpu:cpu|lpm_add_sub:Add8" CBX_FILE_NAME="add_sub_qvi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSoc|Decoder:inst2|Decoder_jtag_uart:jtag_uart|Decoder_jtag_uart_scfifo_w:the_Decoder_jtag_uart_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_jr21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSoc|Decoder:inst2|altera_avalon_mm_clock_crossing_bridge:mm_clock_crossing_bridge_0|altera_avalon_dc_fifo:rsp_fifo|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_csc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSoc|Decoder:inst2|altera_avalon_mm_clock_crossing_bridge:mm_clock_crossing_bridge_0|altera_avalon_dc_fifo:cmd_fifo|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_csc1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

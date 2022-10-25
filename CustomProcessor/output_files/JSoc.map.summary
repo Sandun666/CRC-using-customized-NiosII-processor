@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Mar 01 20:04:21 2022
+Quartus II 64-Bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : JSoc
+Top-level Entity Name : JSoc
+Family : Cyclone IV E
+Total logic elements : 3,784
+    Total combinational functions : 3,132
+    Dedicated logic registers : 2,202
+Total registers : 2202
+Total pins : 66
+Total virtual pins : 0
+Total memory bits : 47,288
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

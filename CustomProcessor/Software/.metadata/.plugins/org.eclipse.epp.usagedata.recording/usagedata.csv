@@ -1,0 +1,40 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1646145636717
+java.version,sysinfo,,,"1.6.0_23",1646145636717
+java.vm.info,sysinfo,,,"mixed mode",1646145636717
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1646145636717
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1646145636717
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1646145636717
+java.vm.specification.version,sysinfo,,,"1.0",1646145636717
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1646145636717
+java.vm.version,sysinfo,,,"19.0-b09",1646145636717
+opened,view,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.views.ProblemView",1646145638051
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646145658981
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646145668548
+started,bundle,org.eclipse.linuxtools.cdt.autotools.core,1.0.2.201202152032,"org.eclipse.linuxtools.cdt.autotools.core",1646145673719
+started,bundle,org.eclipse.core.variables,3.2.500.v20110928-1503,"org.eclipse.core.variables",1646145673794
+started,bundle,org.eclipse.cdt.managedbuilder.gnu.ui,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.gnu.ui",1646145673827
+started,bundle,org.eclipse.cdt.msw.build,1.0.0.201202111925,"org.eclipse.cdt.msw.build",1646145674020
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646145678571
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646146147881
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646146152714
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646148103516
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646148107074
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646148121080
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646148121776
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646148124620
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646148130992
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646148132030
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1646148132096
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1646148132272
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1646148132276
+started,bundle,com.altera.sbtgui.core,12.1.0.177,"com.altera.sbtgui.core",1646148132347
+stopped,bundle,org.eclipse.cdt.build.crossgcc,1.0.2.201202111925,"org.eclipse.cdt.build.crossgcc",1646148132493
+stopped,bundle,org.eclipse.cdt.codan.checkers.ui,1.0.0.201202111925,"org.eclipse.cdt.codan.checkers.ui",1646148132494
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,12.1.0.177,"com.altera.debug.cdi.gdb.plugin",1646148132498
+stopped,bundle,com.altera.sbtgui.launch,12.1.0.177,"com.altera.sbtgui.launch",1646148132498
+stopped,bundle,com.altera.sbtgui.ui,12.1.0.177,"com.altera.sbtgui.ui",1646148132498
+stopped,bundle,com.altera.sbtgui.project,12.1.0.177,"com.altera.sbtgui.project",1646148132498
+stopped,bundle,org.eclipse.cdt.codan.checkers,1.0.1.201202111925,"org.eclipse.cdt.codan.checkers",1646148132498
+stopped,bundle,org.eclipse.cdt.codan.ui.cxx,2.0.0.201202111925,"org.eclipse.cdt.codan.ui.cxx",1646148132498
+stopped,bundle,org.eclipse.cdt.codan.core.cxx,1.0.0.201202111925,"org.eclipse.cdt.codan.core.cxx",1646148132499
